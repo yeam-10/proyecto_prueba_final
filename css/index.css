@@ -216,6 +216,7 @@ body{
 /**********************Price-course*****************************/
 
 .price{
+
     text-align: center;
 }
 
@@ -243,9 +244,15 @@ body{
 }
 
 .price__element--best{
-    background-color: #8cace6;
-    --color-plan: rgb(255,255,255/ 75%)
-   
+    /*background-color: #8cace6;*/
+    background-color: #FF5733;
+    --color-plan: rgb(255,255,255/ 75%);
+    --color-plan: rgb(255 255 255 / 75%);
+    --color-price: #fff;
+    --bg-cta: #5454D4;
+    --color-cta: #FFF;
+    --color-items: #fff;
+ 
 }
 
 .price_name{
@@ -256,7 +263,40 @@ body{
 
 .price__price{
     font-size: 2.5em;
-    color: var(--color-price);   
+    color: var(--color-price);
+    
 }
+
+.price__items{
+    margin-bottom: 2.1875rem;
+    display: grid;
+    gap: 1.25em;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 3.125rem;
+    color:var(--color-items);
+
+}
+
+.price__cta{
+    display: block;
+    padding: 1.25rem 0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--color-cta);
+    background-color: var(--bg-cta);
+    box-shadow: 0 0 .0625rem rgba(0, 0, 0, .5);
+
+
+    
+}
+
+
+
+
+
+
+
+
 
 
