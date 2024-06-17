@@ -291,6 +291,72 @@ body{
     
 }
 
+/**********************Testimony*********************************************/
+
+.testimony{
+    background-color: #e5e5f7;
+}
+
+.testimony__container{
+    display: grid;
+    grid-template-columns: 3.125rem 1fr 3.125rem;
+    gap: 1em;
+    align-items: center;
+}
+
+.testimony__body{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.testimony__body--show{
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.testimony__img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+.testimony__text{
+    max-width: 43.75rem;
+}
+
+.testimony__course{
+    background-color: royalblue;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+.testimony__arrow{
+    width: 90%;
+    cursor: pointer;
+}
+
+/*************************************/
+
+.question{
+    text-align: center;
+}
+
+.questions__paragraph{
+    
+}
+
+
+
 
 
 
